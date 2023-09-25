@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="mortgage_calculator">Mortgage Calculator</string>
+    <string name="hello_welcome_to_the_monthly_mortgage_calculator">Hello! Welcome to the monthly mortgage calculator.</string>
+    <string name="click_here_to_get_started">Click here to get started</string>
+    <string name="hello">Hello</string>
+    <string name="amortization_period_years">Amortization Period (years)</string>
+    <string name="calculate">Calculate</string>
+    <string name="principal_amount">Principal Amount</string>
+    <string name="payment_result">Payment Result:</string>
+    <string name="interest_rate">Interest Rate (%)</string>
+    <string name="this_is_usually_the_purchase_price_minus_your_down_payment">(This is usually the purchase price minus your down payment.)</string>
+</resources>
