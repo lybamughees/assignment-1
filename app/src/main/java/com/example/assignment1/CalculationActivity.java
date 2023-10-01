@@ -42,8 +42,8 @@ public class CalculationActivity extends AppCompatActivity {
         // Perform the mortgage payment calculation
         double monthlyInterestRate = (interestRate / 100) / 12;
         int amortizationPeriodMonths = amortizationPeriodYears * 12; // Convert years to months
-        double mortgagePayment = (principal * monthlyInterestRate) /
-                (1 - Math.pow(1 + monthlyInterestRate, -amortizationPeriodMonths));
+        double mortgagePayment = principal * (monthlyInterestRate * Math.pow(1+monthlyInterestRate,amortizationPeriodMonths)) /
+                ((Math.pow(1+monthlyInterestRate,amortizationPeriodMonths))-1);
 
         // Display the calculated payment in the TextView
         textViewPaymentResult.setText("Payment Result: " + String.format("%.2f", mortgagePayment));
